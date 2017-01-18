@@ -1,0 +1,65 @@
+
+<html>
+<body>
+<head>
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+   </head>
+
+
+<form class="form-horizontal" action="{{ url_for('addrec') }}" method="POST">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Enter user details</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Name">Name</label>
+  <div class="col-md-4">
+  <input id="Name" name="nm" placeholder="Name" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="PINCODE">PINCODE</label>
+  <div class="col-md-4">
+  <input id="PINCODE" name="pin" placeholder="PINCODE" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="City">City</label>
+  <div class="col-md-4">
+  <input id="City" name="city" placeholder="City" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Address">Address</label>
+  <div class="col-md-4">
+  <input id="Address" name="add" placeholder="Address" class="form-control input-md" required="" type="text">
+
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="submit">submit</label>
+  <div class="col-md-4">
+    <button id="submit" name="submit" class="btn btn-primary">submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</body>
+</html>
