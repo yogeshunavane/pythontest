@@ -1,0 +1,13 @@
+https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/
+
+https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
+
+https://en.wikipedia.org/wiki/Object-oriented_programming
+
+http://db-engines.com/en/ranking
+
+https://www.youtube.com/watch?v=Qe026vn1tbc
+
+http://www.bogotobogo.com/python/python_http_web_services.php
+
+http://www.javatpoint.com/soap-vs-rest-web-services
