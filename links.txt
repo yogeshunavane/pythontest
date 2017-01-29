@@ -11,3 +11,9 @@ https://www.youtube.com/watch?v=Qe026vn1tbc
 http://www.bogotobogo.com/python/python_http_web_services.php
 
 http://www.javatpoint.com/soap-vs-rest-web-services
+
+https://www.youtube.com/playlist?list=PLXmMXHVSvS-Db9KK1LA7lifcyZm4c-rwj
+
+https://mlab.com/databases/mongotest/collections/User
+l660970
+l660970@mvrht.com
