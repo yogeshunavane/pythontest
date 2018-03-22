@@ -1,0 +1,18 @@
+#perl 5.22.1 
+
+use Data::Dumper;
+print "Hello World\n";
+
+my @unwanted = ('aaa','bbb','ccc');
+my %hash = ('aaaa' => 'two', 'bbb' => '2');
+
+foreach my $key (keys %hash) {
+    print($key);
+
+    if ( grep( /^$key$/, @unwanted ) ) {
+          print "found it";
+          delete($hash{"$key"});
+    }
+}
+print "\n";
+print Dumper(\%hash);
