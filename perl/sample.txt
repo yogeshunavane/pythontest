@@ -16,3 +16,25 @@ foreach my $key (keys %hash) {
 }
 print "\n";
 print Dumper(\%hash);
+
+
+
+----
+
+
+use strict; use warnings;
+use Log::Log4perl qw(:easy);
+
+my $log_level = $INFO;
+Log::Log4perl->easy_init({
+    level   => $log_level,
+    layout  => '%d %-5p %m%n'
+});
+
+my $logger = Log::Log4perl->get_logger();
+$logger->fatal( "This is", " fatal");
+$logger->error( "This is error");
+$logger->warn(  "This is warn");
+$logger->info(  "This is info");
+$logger->debug( "This is debug");
+$logger->trace( "This is trace");
